@@ -1,0 +1,1 @@
+{"compilerOptions":{"target":"esnext","module":"esnext","strict":true,"jsx":"preserve","moduleResolution":"node","skipLibCheck":true,"baseUrl":".","types":["@nuxt/types","@nuxt/types/global","paths": {"~/*": ["./*"],"@/*": ["./*"]}]},"exclude":["node_modules",".nuxt","dist"]}
