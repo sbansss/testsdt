@@ -1,0 +1,64 @@
+.glitch {
+  animation: glitch 1s linear infinite;
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+.scanner-line {
+  animation: scanline 1s linear infinite;
+}
+
+.fade-in-section {
+  animation: fadeIn 1.5s ease-in;
+}
+
+.grid-pattern {
+  background: url('grid-pattern.png');
+  animation: grid 2s infinite;
+}
+
+.scanline-overlay {
+  animation: scanline-overlay 1s infinite;
+}
+
+.terminal-scroll {
+  animation: terminal-scroll 1s ease-in-out;
+}
+
+@keyframes glitch {
+  0% { background-position: 0 0; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0 0; }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes scanline {
+  0% { background-position: -100% 0; }
+  100% { background-position: 100% 0; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes grid {
+  0% { background-size: 100%; }
+  100% { background-size: 200%; }
+}
+
+@keyframes scanline-overlay {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes terminal-scroll {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(0); }
+}
