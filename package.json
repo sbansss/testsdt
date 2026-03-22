@@ -1,0 +1,1 @@
+{\n  "name": "unbans-nuxt",\n  "version": "1.0.0",\n  "private": true,\n  "scripts": {\n    "dev": "nuxt",\n    "build": "nuxt build",\n    "start": "nuxt start"\n  },\n  "dependencies": {\n    "nuxt": "^3.0.0",\n    "tailwindcss": "^2.0.0"\n  },\n  "devDependencies": {\n    "@types/node": "^14.14.31"\n  }\n}
